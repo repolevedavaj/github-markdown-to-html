@@ -1,0 +1,10 @@
+name: 'Github Markdown to HTML'
+description: 'Renders a Markdown document in HTML using the Github REST API'
+author: 'repolevedavaj'
+inputs:
+  text:
+    required: true
+    description: 'The Markdown text to render in HTML'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
