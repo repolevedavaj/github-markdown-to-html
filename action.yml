@@ -1,6 +1,9 @@
 name: 'Github Markdown to HTML'
 description: 'Renders a Markdown document in HTML using the Github REST API'
 author: 'repolevedavaj'
+branding:
+  icon: 'align-left'
+  color: 'gray-dark'
 inputs:
   text:
     required: true
